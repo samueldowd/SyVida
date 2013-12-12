@@ -104,6 +104,18 @@ p {
 .section.grey {
   background-color: #f2f2f2;
 }
+#initiatives, #resText {
+  background-color: #0051B3;
+}
+#initiatives h4, 
+#resText h4,
+#initiatives p, 
+#resText p,
+#initiatives div,
+#resText div {
+  color: white;
+  text-shadow: 1px 1px #666;
+}
 .nav-link {
   margin-right: 5px;
   margin-left: 5px;
