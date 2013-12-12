@@ -17,6 +17,7 @@ h1 {
   line-height: 44px;
   font-weight: 700;
   text-align: center;
+  border-radius: 12px;
 }
 h2 {
   display: inline-block;
