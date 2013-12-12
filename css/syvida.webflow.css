@@ -1,0 +1,537 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  font-size: 12px;
+  line-height: 20px;
+}
+h1 {
+  display: block;
+  max-width: 500px;
+  min-width: 300px;
+  margin: -12px auto 11px;
+  padding: 9px 13px;
+  background-color: rgba(0, 0, 0, 0.49);
+  font-family: Lato, sans-serif;
+  color: white;
+  font-size: 38px;
+  line-height: 44px;
+  font-weight: 700;
+  text-align: center;
+}
+h2 {
+  display: inline-block;
+  margin: 254px 0px 10px;
+  padding: 9px 13px;
+  background-color: rgba(0, 0, 0, 0.49);
+  font-family: Lato, sans-serif;
+  color: white;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+}
+h3 {
+  margin-right: 0px;
+  margin-left: 0px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+h4 {
+  margin-right: 0px;
+  margin-bottom: 6px;
+  margin-left: 0px;
+  border-width: 1px;
+  border-color: black;
+  box-shadow: none;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+  font-family: Lato, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  text-shadow: none;
+}
+h5 {
+  margin-right: 0px;
+  margin-left: 0px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+h6 {
+  margin: 10px 0px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+p {
+  margin-bottom: 15px;
+  font-family: Merriweather, serif;
+  font-size: 14px;
+}
+.button {
+  display: inline-block;
+  padding: 12px 31px;
+  border-radius: 5px;
+  background-color: black;
+  background-image: none;
+  -webkit-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+  font-family: Lato, sans-serif;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+}
+.button:hover {
+  background-color: #008cff;
+}
+.section {
+  padding-top: 43px;
+  padding-bottom: 43px;
+}
+.section.header {
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  z-index: 1;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  background-color: #333;
+}
+.section.grey {
+  background-color: #f2f2f2;
+}
+.nav-link {
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 10px 14px;
+  border-radius: 5px;
+  -webkit-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+  font-family: Lato, sans-serif;
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: none;
+}
+.nav-link:hover {
+  background-color: #969696;
+  -webkit-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+.nav-link.sign-up {
+  background-color: #008cff;
+  -webkit-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+.nav-link:hover.sign-up:hover {
+  background-color: #0076d6;
+}
+.company-title {
+  font-family: Lato, sans-serif;
+  color: white;
+  font-size: 25px;
+  font-weight: 400;
+  text-transform: none;
+}
+.nav-bar {
+  padding-right: 0px;
+  padding-left: 0px;
+  text-align: right;
+}
+.hero-bg {
+  width: auto;
+  padding-top: 33px;
+  padding-bottom: 33px;
+  background-image: url(../images/888174_4620188662833_1696619392_o.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.subtitle {
+  margin-bottom: 18px;
+  -webkit-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+  font-family: Lato, sans-serif;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+.section-description {
+  width: 550px;
+  font-family: Merriweather, serif;
+  font-size: 14px;
+}
+.snippet {
+  display: block;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0);
+  -webkit-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+  color: black;
+  text-decoration: none;
+}
+.snippet:hover {
+  -webkit-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+}
+.right-col {
+  padding-top: 13px;
+  text-align: right;
+}
+.more-link {
+  padding: 6px 8px;
+  border: 2px solid #c2c2c2;
+  border-radius: 5px;
+  -webkit-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+  color: #9c9c9c;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.more-link:hover {
+  border: 1px solid #008cff;
+  background-color: #008cff;
+  -webkit-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+  color: white;
+}
+.snippet-text-section {
+  padding: 10px 12px;
+}
+.snippet-title {
+  margin-bottom: 7px;
+  font-family: Lato, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+.snippet-text {
+  font-family: Merriweather, serif;
+  color: black;
+  font-size: 14px;
+  line-height: 19px;
+}
+.snippet-row {
+  margin-top: 27px;
+  margin-bottom: 27px;
+}
+.button-column {
+  padding-top: 32px;
+  text-align: center;
+}
+.company-column {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.img-example {
+  position: static;
+  display: inline-block;
+  width: 130px;
+  height: 130px;
+  margin-bottom: 34px;
+  clear: none;
+  background-image: url(../images/El%20Salv-%20Wednesday%20022.JPG);
+  box-shadow: black 1px 1px 3px 0px;
+}
+.img-example.loright {
+  display: block;
+  width: 130px;
+  height: 130px;
+  background-image: url(../images/IMG_0304.JPG);
+  background-position: 50% 50%;
+  background-size: cover;
+  box-shadow: black 1px 1px 3px 0px;
+}
+.img-example.upright {
+  display: block;
+  width: 130px;
+  height: 130px;
+  background-image: url(../images/El%20Salv-%20Wednesday%20022.JPG);
+  background-position: 0px 100%;
+  background-size: cover;
+  background-repeat: no-repeat no-repeat;
+  box-shadow: black 1px 1px 3px 0px;
+}
+.img-example.loleft {
+  display: block;
+  width: 130px;
+  height: 130px;
+  background-image: url(../images/IMG_0298.JPG);
+  background-position: 50% 0px;
+  background-size: cover;
+  background-repeat: no-repeat no-repeat;
+  box-shadow: black 1px 1px 3px 0px;
+}
+.img-example.headpic1 {
+  margin-bottom: 0px;
+  background-image: url(../images/395171_3922195333436_1036447275_n.jpg);
+  background-position: 50% 100%;
+  background-size: cover;
+  box-shadow: black 1px 1px 3px 0px;
+}
+.img-example.headpic2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-image: url(../images/01-El%20Salv-%20Wednesday%20001.JPG);
+  background-size: cover;
+  box-shadow: black 1px 1px 3px 0px;
+}
+.img-example.headpic4 {
+  margin-bottom: 0px;
+  background-image: url(../images/El%20Salvador%20Oct-12%20380.JPG);
+  background-position: 50% 50%;
+  background-size: cover;
+  box-shadow: black 1px 1px 3px 0px;
+}
+.img-example.headpic3 {
+  margin-bottom: 0px;
+  background-image: url(../images/IMG_1663.JPG);
+  background-size: cover;
+  box-shadow: black 1px 1px 3px 0px;
+}
+.footer-link {
+  margin-right: 9px;
+  margin-left: 9px;
+  font-family: Lato, sans-serif;
+  color: #008cff;
+  font-size: 14px;
+  text-decoration: none;
+}
+.footer-nav-bar {
+  text-align: right;
+}
+.footer-text {
+  font-family: Lato, sans-serif;
+  font-size: 14px;
+}
+.content-bg {
+  padding-top: 39px;
+  padding-bottom: 39px;
+  background-color: lightgrey;
+  background-image: url(../images/DSCN1254_0144_144.jpg), url(../images/example-bg.png);
+  background-position: 50% 50%, 0% 0%;
+  background-attachment: fixed, fixed;
+}
+.content-bg.two {
+  background-image: url(../images/560437_3492798922836_807305114_n.jpg);
+  background-size: cover;
+}
+.example-image {
+  display: block;
+  width: auto;
+  height: 220px;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: black 1px 1px 3px 0px, black 1px 1px 3px 0px, black 1px 1px 3px 0px;
+}
+.widecont {
+  margin-top: 115px;
+  margin-bottom: 133px;
+}
+.linkphoto {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.embedpdf {
+  height: 960px;
+}
+@media (max-width: 991px) {
+  .button {
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+  }
+  .nav-link {
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+  }
+  .hero-bg {
+    background-image: url(../images/888174_4620188662833_1696619392_o.jpg);
+  }
+  .snippet {
+    -webkit-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+  }
+  .img-example {
+    background-image: url(../images/El%20Salv-%20Wednesday%20022.JPG);
+    box-shadow: black 1px 1px 3px 0px;
+  }
+  .content-bg {
+    background-image: url(../images/DSCN1254_0144_144.jpg), url(../images/example-bg.png);
+  }
+  .content-bg.two {
+    background-image: url(../images/560437_3492798922836_807305114_n.jpg);
+  }
+  .example-image {
+    background-image: url(../images/example-bg.png);
+    background-size: 125px;
+    box-shadow: black 1px 1px 3px 0px, black 1px 1px 3px 0px, black 1px 1px 3px 0px;
+  }
+}
+@media (max-width: 767px) {
+  h1 {
+    margin-top: 173px;
+  }
+  h2 {
+    margin-top: 107px;
+  }
+  .button {
+    margin-bottom: 33px;
+    padding: 29px 30px;
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .section.header {
+    background-color: #333;
+  }
+  .nav-link {
+    background-color: #6b6b6b;
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+  }
+  .nav-link:hover {
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+  }
+  .company-title {
+    margin-bottom: 33px;
+  }
+  .nav-bar {
+    text-align: center;
+  }
+  .hero-bg {
+    padding-right: 10px;
+    padding-left: 10px;
+    background-image: url(../images/888174_4620188662833_1696619392_o.jpg);
+  }
+  .snippet {
+    margin-bottom: 19px;
+  }
+  .right-col {
+    margin-top: -42px;
+  }
+  .button-column {
+    padding-top: 61px;
+  }
+  .company-column {
+    text-align: center;
+  }
+  .img-example {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(../images/El%20Salv-%20Wednesday%20022.JPG);
+    box-shadow: black 1px 1px 3px 0px;
+  }
+  .img-example.loright {
+    background-image: url(../images/El%20Salv-%20Wednesday%20022.JPG);
+    box-shadow: black 1px 1px 3px 0px;
+  }
+  .img-example.upright {
+    background-image: url(../images/El%20Salv-%20Wednesday%20022.JPG);
+    background-position: 0px 100%;
+    box-shadow: black 1px 1px 3px 0px;
+  }
+  .img-example.loleft {
+    background-image: url(../images/IMG_0298.JPG);
+    background-position: 50% 0px;
+    box-shadow: black 1px 1px 3px 0px;
+  }
+  .footer-nav-bar {
+    text-align: center;
+  }
+  .left-footer-col {
+    margin-bottom: 13px;
+    text-align: center;
+  }
+  .content-bg {
+    padding-right: 10px;
+    padding-left: 10px;
+    background-image: url(../images/DSCN1254_0144_144.jpg), url(../images/example-bg.png);
+    background-size: cover, auto;
+    background-attachment: scroll, scroll;
+  }
+  .featpic {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media (max-width: 479px) {
+  h4 {
+    text-align: center;
+  }
+  .button {
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+  }
+  .section.header {
+    padding-right: 16px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+  }
+  .nav-link {
+    display: block;
+    margin-bottom: 19px;
+    -webkit-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+  }
+  .hero-bg {
+    background-image: url(../images/888174_4620188662833_1696619392_o.jpg), url(../images/example-bg.png);
+  }
+  .section-description {
+    display: block;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .img-example {
+    background-image: url(../images/El%20Salv-%20Wednesday%20022.JPG);
+    box-shadow: black 1px 1px 3px 0px;
+  }
+  .img-example.loright {
+    background-image: url(../images/IMG_0304.JPG);
+    background-position: 50% 50%;
+    box-shadow: black 1px 1px 3px 0px;
+  }
+  .content-bg {
+    min-height: 330px;
+    background-image: url(../images/DSCN1254_0144_144.jpg);
+  }
+  .content-bg.two {
+    background-image: url(../images/DSCN1254_0144_144.jpg), url(../images/example-bg.png);
+    background-position: 50% 50%, 0% 0%;
+  }
+}
